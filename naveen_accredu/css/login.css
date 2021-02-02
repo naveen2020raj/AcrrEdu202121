@@ -1,0 +1,100 @@
+a{
+text-decoration: none !important;
+color: red;
+}
+
+form{
+    margin-top:30px;
+    border: 5px groove black;
+    border-radius: 20px;
+    padding: 10%;
+   background-color: white;
+}
+.form_section{
+    margin-top: 8%;
+}
+.form-group{
+    position:relative;
+}
+.form-control{
+    height: 40px;
+}
+.form-control:focus{
+    box-shadow:none;
+}
+ 
+label{
+    position:absolute;
+     left:10px; top:10px;
+      transition:all 0.3s; 
+      color:#999; 
+      font-weight:normal;
+    }
+.form-control:focus ~ label{
+     left:5px;
+     top:-10px; 
+     background:#fff;
+     padding:0 5px;
+    }
+label.active{
+    left:5px;
+     top:-10px;
+      background:#fff;
+       padding:0 5px;
+    }
+    .image_login{
+        width: 636px;
+        height: 865px;
+    }
+.button_submit{
+ 
+        padding: 15px 35px;
+        font-size: 24px;
+        text-align: center;
+        cursor: pointer;
+        outline: none;
+        color: #fff;
+        background-color: #00ccff;
+        border: none;
+        border-radius: 15px;
+        box-shadow: 0 9px #999;
+    }
+    .button_submit:hover{
+        background-color: black;
+    }
+    .button_submit:active{
+        background-color: black;
+        box-shadow: 0 5px #666;
+        transform: translateY(4px);
+    }
+    body{
+      background-image: linear-gradient(to right ,#00ccff,rgb(0, 51, 53));
+        
+    }
+    .text_logo{
+        margin-top: 30%;
+    }
+    h1{
+        font-size: 80px !important;
+        font-weight: 800;
+    }
+    p{
+        font-size: 30px !important;
+        font-weight: 700;
+       
+    }
+    @media only screen and (max-width: 600px) {
+  
+    h1{
+        font-size: 35px !important;
+        font-weight: 800;
+    }
+    p{
+        font-size: 20px !important;
+        font-weight: 700;
+       
+    }
+   }
+
+  
+   
